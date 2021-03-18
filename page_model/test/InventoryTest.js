@@ -20,7 +20,7 @@ test('Users can navigate to the shoping cart page from inventory page', async t 
   await t
     .click(InventoryPage.cartButton)
 
-  await t.expect(CartPage.loginButton.exists).ok()
+  await t.expect(CartPage.pageTitle.exists).ok()
 })
 
 test ('Users can add one item to the cart', async t =>{
