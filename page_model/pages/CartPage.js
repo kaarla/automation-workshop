@@ -1,4 +1,4 @@
-import {Selector} from 'testcafe'
+import {Selector, t} from 'testcafe'
 
 class CartPage {
   constructor() {
@@ -6,6 +6,7 @@ class CartPage {
     this.cartList = Selector('#cart_contents_container > div > div.cart_list')
     this.backpackItem = this.cartList.child().withText('Backpack')
     this.bikeItem = this.cartList.child().withText('Bike')
+    this.checkoutButton = Selector('.btn_action.checkout_button')
   }
 }
 

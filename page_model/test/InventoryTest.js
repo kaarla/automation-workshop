@@ -15,7 +15,7 @@ test('Users can logout from inventory page', async t =>{
   await t.expect(LoginPage.loginButton.exists).ok()
 })
 
-test('Users can navigate to the shoping cart page from inventory page', async t =>{
+test('Users can navigate to the shopping cart page from inventory page', async t =>{
   await LoginPage.submitLoginForm(CREDENTIALS.VALID_USER.USERNAME, CREDENTIALS.VALID_USER.PASSWORD)
   await t
     .click(InventoryPage.cartButton)
