@@ -4,8 +4,11 @@
   "description": "testcafe project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-all-chrome": "testcafe chrome page_model/test/InventoryTest.js"
   },
   "author": "kaarla",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
