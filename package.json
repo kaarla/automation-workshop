@@ -4,7 +4,7 @@
   "description": "testcafe project",
   "main": "index.js",
   "scripts": {
-    "test-all-chrome": "testcafe chrome page_model/test/InventoryTest.js"
+    "test-all-chrome": "testcafe chrome page_model/test"
   },
   "author": "kaarla",
   "license": "ISC",
