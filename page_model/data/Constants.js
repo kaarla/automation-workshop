@@ -4,7 +4,13 @@ export const CREDENTIALS = {
     PASSWORD: 'secret_sauce'
   },
   INVALID_USER:{
-    USERNAME:'invalid_user',
-    PASSWORD:'secret_pass'
+    USERNAME: 'invalid_user',
+    PASSWORD: 'secret_pass'
   }
+}
+
+export const CONTACT_INFO = {
+  FIRST_NAME: 'alice',
+  LAST_NAME: 'ecila',
+  ZIP: '06789'
 }
