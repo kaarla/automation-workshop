@@ -2,7 +2,7 @@ import {Selector, t} from 'testcafe'
 
 class CartPage {
   constructor() {
-    this.pageTitle = Selector('#contents_wrapper > div.subheader').withText('Cart')
+    this.pageTitle = Selector("#header_container > div.header_secondary_container > span").withText('CART')
     this.cartList = Selector('#cart_contents_container > div > div.cart_list')
     this.backpackItem = this.cartList.child().withText('Backpack')
     this.bikeItem = this.cartList.child().withText('Bike')

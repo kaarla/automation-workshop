@@ -2,8 +2,8 @@ import {Selector} from 'testcafe'
 
 class InventoryPage {
   constructor() {
-    this.pageTitle = Selector('#inventory_filter_container > div')
-    this.cartButton = Selector('#shopping_cart_container > a > svg')
+    this.pageTitle = Selector('#header_container > div.header_secondary_container > span').withText('PRODUCTS')
+    this.cartButton = Selector('#shopping_cart_container')
     this.burgerButton = Selector('#react-burger-menu-btn')
     this.logoutOption = Selector('#logout_sidebar_link')
     this.inventoryList = Selector('#inventory_container')

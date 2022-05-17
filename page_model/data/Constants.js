@@ -11,6 +11,6 @@ export const CREDENTIALS = {
 
 export const CONTACT_INFO = {
   FIRST_NAME: 'alice',
-  LAST_NAME: 'ecila',
+  LAST_NAME: 'cecila',
   ZIP: '06789'
 }
